@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Muhammad Usman - The Front End Developer.</title>
+  <meta name="title" content="Julia - I'm User Interface Designer & Developer.">
+  <meta name="description" content="This is a personal portfolio html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpeg">
+  <link rel="preload" as="image" href="./assets/images/Blog.svg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <h2>Muhammad Usman</h2>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <h2>Muhammad Usman</h2>
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#Home" class="navbar-link"></a>
+          </li>
+
+          <li>
+            <a href="#About" class="navbar-link"></a>
+          </li>
+
+          <li>
+            <a href="#Projects" class="navbar-link"></a>
+          </li>
+          <li>
+            <a href="#Contact" class="navbar-link"></a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:Osman.wad69@gmail.com" class="contact-link">Osman.wad69@gmail.com</a>
+
+          <a href="tel:03086852008" class="contact-link">03086852008</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="assets/images/Resume Front End.pdf" class="social-link">
+               <h4>Download CV</h4>
+            </a>
+          </li>
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home" id="Home">
+        <div class="container">
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.jpeg" width="560" height="540" alt="Usman" class="w-100"
+              data-reveal="top">
+
+          </figure>
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title" data-reveal="top" data-reveal-delay="0.5s">
+              I'm Front End Developer.
+            </h1>
+
+            <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
+              Greetings! I am Usman, a frontend developer located in Pakistan. I am deeply committed to the work I undertake and approach it with great passion.
+            </p>
+
+            <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+              <a href="http://www.linkedin.com/in/muhammad-osman69" class="btn btn-primary">LinkedIn</a>
+
+              <a href="https://github.com/ZORO529" class="btn btn-secondary">GitHub</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-label="about" id="#About">
+        <div class="container">
+
+          <div class="wrapper">
+
+            <div data-reveal="left">
+              <h2 class="h2 section-title">What I Do?</h2>
+
+              <p class="section-text">
+                As a front-end developer, I'm all about crafting top-notch web experiences, and React.js is my jam. From slick interfaces to snappy functionality, I've got you covered. With skills in HTML, CSS, JavaScript, and React.js, I specialize in making websites shine and users smile. Whether it's building from scratch or giving your site a facelift, let's team up and make some digital magic happen!
+              </p>
+            </div>
+
+            <ul class="progress-list" data-reveal="right">
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>HTML</p>
+
+                  <span class="span">80%</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 80%; background-color: #c7b1dd"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>CSS</p>
+
+                  <span class="span">80%</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 80%; background-color: #8caeec"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>JavaScript</p>
+
+                  <span class="span">70%</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 70%; background-color: #b0d4c1"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>React Js</p>
+
+                  <span class="span">60%</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 60%; background-color: #e3a6b6"></div>
+                </div>
+
+              </li>
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>BootStrap</p>
+
+                  <span class="span">75%</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 75%; background-color: #727af3"></div>
+                </div>
+
+              </li>
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>TailWind CSS</p>
+
+                  <span class="span">75%</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 75%; background-color: #9eff9e"></div>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li data-reveal="bottom">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-1.svg" width="52" height="52" loading="lazy" alt="web design icon">
+                </div>
+
+                <h3 class="h4 card-title">Web Design</h3>
+
+                <p class="card-text">
+                  Crafting visually appealing and intuitive web interfaces that align with design concepts and user experience principles,best practices to ensure optimal usability and accessibility.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.25s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-2.svg" width="52" height="52" loading="lazy" alt="mobile design icon">
+                </div>
+
+                <h3 class="h4 card-title">Responsiveness</h3>
+
+                <p class="card-text">
+                  Creating web experiences that adapt seamlessly to various screen sizes and devices, ensuring optimal viewing and interaction experiences for users on desktops, tablets, and mobile devices.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.5s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-3.svg" width="52" height="52" loading="lazy"
+                    alt="web development icon">
+                </div>
+
+                <h3 class="h4 card-title">Development</h3>
+
+                <p class="card-text">
+                  Implementing front-end features using HTML, CSS,JavaScript React JS and and their frameworks to deliver responsive and high-performance web applications
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.75s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-4.svg" width="52" height="52" loading="lazy" alt="web seo icon">
+                </div>
+
+                <h3 class="h4 card-title">Collaborations</h3>
+
+                <p class="card-text">
+                  Working closely with designers and developers to ensure seamless integration and alignment with project requirements and objectives.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" aria-labelledby="project-label">
+        <div class="container">
+
+          <div class="title-wrapper" data-reveal="top">
+
+            <div>
+              <h2 class="h2 section-title" id="project-label">Latest Projects</h2>
+
+              <p class="section-text">
+                Check out some of my latest projects with creative ideas.
+              </p>
+            </div>
+
+            <a href="https://github.com/ZORO529" class="btn btn-secondary">See All Projects</a>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card project-card-1" style="background-color: #f8f5fb">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class="card-tag" style="color: #a07cc5">Web Design</p>
+
+                  <h3 class="h3 card-title">Exclusive Ecommerce Website</h3>
+
+                  <p class="card-text">
+                    E-commerce dynamic website utilizing HTML, CSS, JavaScript, and Tailwind CSS, enabling users to browse and purchase products online like add to cart updates the carts counts the bills and more.., showcasing skills in responsive design and client-server interaction.
+                  </p>
+
+                  <a href="https://exclusive-ecommerce-website-theta.vercel.app" class="btn-text" style="color: #a07cc5">
+                    <span class="span">See Project</span>
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/gallary1.png" width="650" height="370" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-2" style="background-color: #f1f5fd">
+
+                <div class="card-content" data-reveal="right">
+
+                  <p class=" card-tag" style="color: #3f78e0">Mobile Design</p>
+
+                  <h3 class="h3 card-title">MovieBox</h3>
+
+                  <p class="card-text">
+                    Introducing a static Movie Box website, meticulously crafted using HTML, CSS, Bootstrap, and JavaScript. With 3 to 4 pages, including a login page, it showcases movie information and trailers, demonstrating proficiency in front-end web development. Users can filter movies with ease, enjoying a seamless experience across devices. Dive into the world of cinema with this visually engaging and functional platform.
+                    hint:'usman308@gmail.com,pasoword='movie@123'
+                  </p>
+                  <a href="https://movie-box-ten-rose.vercel.app" class="btn-text" style="color: #3f78e0">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="left">
+                  <img src="./assets/images/gallary2.png" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+              </div>
+                 <!-- newone -->
+                 <div class="project-card project-card-1" style="background-color: #f8f5fb">
+
+                  <div class="card-content" data-reveal="left">
+  
+                    <p class="card-tag" style="color: #a07cc5">API</p>
+  
+                    <h3 class="h3 card-title">FAKE STORE</h3>
+  
+                    <p class="card-text">
+                      Building a FakeStore store using the FakeStore API in React JS and Tailwind CSS to dynamically fetch and display data on a web page. Experience seamless browsing as products populate in real-time, showcasing expertise in integrating APIs for dynamic content delivery..
+                    </p>
+                    <a href="#" class="btn-text" style="color: #a07cc5">
+                      <span class="span">See Project</span>
+                      <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                    </a>
+                  </div>
+  
+                  <figure class="card-banner" data-reveal="right">
+                    <img src="./assets/images/gallary3.png" width="650" height="370" loading="lazy" alt="Web Design"
+                      class="w-100">
+                  </figure>
+                </div>
+                 <!-- newone -->
+                 <!-- newone -->
+                 <div class="project-card project-card-2" style="background-color: #f1f5fd">
+
+                  <div class="card-content" data-reveal="right">
+  
+                    <p class=" card-tag" style="color: #3f78e0">API</p>
+  
+                    <h3 class="h3 card-title">Currency Converter</h3>
+  
+                    <p class="card-text">
+                      Developed a currency converter in React.js, leveraging useState, useEffect, and custom hooks for dynamic functionality. With Tailwind CSS, seamlessly swap between currencies like USD to INR or vice versa, offering a user-friendly and responsive experience.
+                    </p>
+  
+                    <a href="#" class="btn-text" style="color: #3f78e0">
+                      <span class="span">See Project</span>
+  
+                      <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                    </a>
+  
+                  </div>
+  
+                  <figure class="card-banner" data-reveal="left">
+                    <img src="./assets/images/gallary4.png" width="600" height="367" loading="lazy" alt="Web Design"
+                      class="w-100">
+                  </figure>
+                </div>
+                 <!-- newone -->
+            </li>
+          
+          
+
+            <li>
+              <div class="project-card project-card-3" style="background-color: #f5faf7">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #7cb798">Web Design</p>
+
+                  <h3 class="h3 card-title">Landing Pages and more</h3>
+
+                  <p class="card-text">
+                    Designing sleek landing pages with HTML, CSS, and Bootstrap tailored to fashion, education, and food industries. Also, developing interactive JavaScript projects like todo lists, weather apps, and quiz applications to showcase front-end development skills.
+                  </p>
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/gallary6.png" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-4" style="background-color: #fcf4f6">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #d16b86">Final year Project</p>
+
+                  <h3 class="h3 card-title">DSA Events Managment System</h3>
+
+                  <p class="card-text">
+                   
+Developed a comprehensive DSA Events Management System using Android Studio, Java, XML, and Firebase for my university's final year project. The system consists of two modules: user and admin. Users receive notifications for upcoming events, allowing them to easily apply and purchase tickets online. All user details, payments, and event data are securely managed and synchronized with Firebase, providing real-time updates for staff and admin to efficiently approve payments and manage event information.
+                  </p>
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/gallary7.jpeg" width="620" height="370" loading="lazy" alt="Mobile Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" aria-label="contact">
+        <div class="container">
+
+          <div class="contact-card">
+
+            <div class="contact-content" data-reveal="left">
+
+              <div class="card-icon">
+                <img src="./assets/images/icon-5.svg" width="44" height="44" loading="lazy" alt="envelop icon">
+              </div>
+
+              <h2 class="h2 section-title">If you like what you see, let's work together.</h2>
+
+              <p class="section-text">
+                I bring rapid solutions to make the life of my clients easier. Have any questions? Reach out to me from
+                this contact form and I will get back to you shortly.
+              </p>
+
+            </div>
+
+            <form action="mailto:Osman.wad69@gmail.com" enctype="text/plain" class="contact-form" data-reveal="right">
+
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Name *" required class="input-field">
+
+                <input type="email" name="email_address" placeholder="Email *" required class="input-field">
+              </div>
+
+              <textarea name="message" placeholder="Message*" required class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">Send message</button>
+
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+      <p class="copyright">
+        © 2024 Muhammad Usman. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
