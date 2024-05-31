@@ -899,3 +899,14 @@ textarea.input-field {
   .about .grid-list { gap: 60px; }
 
 }
+
+@media screen and (max-width:400px) {
+  card-content a{
+    width: 100%;
+    height: auto;
+  }
+ body{
+  font-size: small;
+ 
+ }
+}
